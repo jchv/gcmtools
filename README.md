@@ -9,11 +9,14 @@ How to Get Source from Git
 *   open cmd.exe
 
 >   cd C:\wherever\you\want\to\put\the\source\code\at
+
 >   git clone [repo URL]
 
 ### Debian/Ubuntu Linux
 >   sudo apt-get install git
+
 >   cd ~/
+
 >   git clone [repo URL]
 
 
@@ -39,7 +42,9 @@ Build
 *   open cmd.exe
 
 >   set PATH=%PATH%;C:\mingw\bin
+
 >   cd C:\wherever\you\have\the\source\code\at
+
 >   mingw-make
 
 ### Linux
