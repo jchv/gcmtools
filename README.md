@@ -34,7 +34,9 @@ Setup environment
 *   extract into C:\, such that you have a mingw folder with a bin folder
 
 ### Debian/Ubuntu Linux
->   $ sudo apt-get install build-essential
+```
+$ sudo apt-get install build-essential
+```
 
 Build
 -----
