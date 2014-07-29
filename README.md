@@ -5,7 +5,7 @@ How to Get Source from Git
 ==========================
 ### Windows
 *   install git from http://git-scm.com/
-    * recommended: allow git to modify %PATH% for git command ONLY (2nd option)
+    * recommended: allow git to modify `%PATH%` for git command ONLY (2nd option)
 *   open cmd.exe
 
 ```
