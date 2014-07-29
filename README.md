@@ -8,17 +8,17 @@ How to Get Source from Git
     * recommended: allow git to modify %PATH% for git command ONLY (2nd option)
 *   open cmd.exe
 
->   cd C:\wherever\you\want\to\put\the\source\code\at
-
->   git clone [repo URL]
+```
+cd C:\wherever\you\want\to\put\the\source\code\at
+git clone [repo URL]
+```
 
 ### Debian/Ubuntu Linux
->   sudo apt-get install git
-
->   cd ~/
-
->   git clone [repo URL]
-
+```
+sudo apt-get install git
+cd ~/
+git clone [repo URL]
+```
 
 How To Build
 ============
@@ -41,14 +41,16 @@ Build
 ### Windows
 *   open cmd.exe
 
->   set PATH=%PATH%;C:\mingw\bin
-
->   cd C:\wherever\you\have\the\source\code\at
-
->   mingw-make
+```
+set PATH=%PATH%;C:\mingw\bin
+cd C:\wherever\you\have\the\source\code\at
+mingw-make
+```
 
 ### Linux
->   make
+```
+make
+```
 
 Run!
 
